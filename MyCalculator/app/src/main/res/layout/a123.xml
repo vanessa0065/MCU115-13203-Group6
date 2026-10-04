@@ -7,16 +7,31 @@
     android:padding="8dp">
 
     <!-- Display Area -->
-    <TextView
-        android:id="@+id/tvDisplay"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.8"
         android:gravity="bottom|end"
-        android:padding="24dp"
-        android:text="0"
-        android:textColor="#FFFFFF"
-        android:textSize="80sp" />
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvFormula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:textColor="#AAAAAA"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp" />
+    </LinearLayout>
 
     <!-- Row 1: AC, C, Backspace, Divide -->
     <LinearLayout
