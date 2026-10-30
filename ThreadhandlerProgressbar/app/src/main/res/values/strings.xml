@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Thread-handler-Progress-bar</string>
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="tab_start">Start</string>
+    <string name="tab_progress">Progress</string>
+    <string name="tab_result">Result</string>
+    <string name="idle">Idle</string>
+    <string name="preparing">Preparing&#8230;</string>
+    <string name="working">Working&#8230;</string>
+    <string name="working_progress">Working&#8230; %1$d%%</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="finished">背景工作結束!</string>
+    <string name="canceled">Canceled</string>
+</resources>
