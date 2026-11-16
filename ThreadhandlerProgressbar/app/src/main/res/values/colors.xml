@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <array name="progress_colors">
+        <item>#00BCD4</item>
+        <item>#2196F3</item>
+        <item>#3F51B5</item>
+        <item>#673AB7</item>
+    </array>
 </resources>

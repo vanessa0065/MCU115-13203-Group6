@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:max="100"
-            app:indicatorColor="?attr/colorPrimary"
+            app:indicatorColor="@array/progress_colors"
             app:indicatorSize="200dp"
             app:trackColor="#E0E0E0"
             app:trackThickness="16dp" />
